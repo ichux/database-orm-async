@@ -7,5 +7,5 @@ Examples were adapted from https://www.encode.io/databases/ and https://www.enco
 3. run:
 ```shell
 array=(orm_async.py database_async.py sqlite_async.py)
-rm -f *.sqlite && for i in ${array[@]}; do python $i; echo; done
+rm -f *.sqlite && for i in ${array[@]}; do python src/$i; echo; done
 ```
